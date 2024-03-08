@@ -15,7 +15,7 @@ int main() {
 		printf("Qual a primeira nota do aluno: ");
 			scanf("%f",&nota1);
 			
-			printf("Qual a primeira nota do aluno: ");
+			printf("Qual a segunda nota do aluno: ");
 			scanf("%f",&nota2);
 			
 			
