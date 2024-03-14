@@ -17,7 +17,10 @@ int main() {
 
 		printf("\nDigite a senha do usuario: ");
 		scanf("%s",&senha);		
-		
+
+
+
+			// strcmp serve para comparar
 		} while (strcmp(logincada, login ) != 0 && strcmp(senhacada, senha ) != 0);
 		 
 		 printf("\nAcessando o sistema..");
