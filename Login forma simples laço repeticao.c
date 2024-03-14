@@ -21,7 +21,7 @@ int main() {
 
 
 
-			// strcmp serve para comparar   // '!' "diferente"
+			// strcmp serve para comparar   // '!' "diferente"  // '||' nescessario para repetir caso 1 seja diferente
 		} while (strcmp(logincada, login ) != 0 || strcmp(senhacada, senha ) != 0);
 		 
 		 printf("\nAcessando o sistema..");
