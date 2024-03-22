@@ -12,11 +12,11 @@ int main() {
 
 
 	for ( i = 0; i < 2; i++) {
-		printf("Digite o nome do iª aluno: ", i + 1);
+		printf("Digite o nome do iÂª aluno: ", i + 1);
 		scanf("%s",nomes[i]);
 		
 		for ( j = 0; j < 3; j++){
-			printf("Digite a iª nota: ", j + 1);
+			printf("Digite a iÂª nota: ", j + 1);
 			scanf("%f",&notas[i][j]); 
 		}
 		
@@ -25,10 +25,10 @@ int main() {
 
 	printf("\n ===  Exibindo os resultados ===\n");
 	for (i = 0; i < 2; i++){
-		printf("%iª aluno: %s \n", j+1, notas [i]);
+		printf("%iÂª aluno: %s \n", j+1, nomes [i]);
 		
 		for ( j = 0; j < 3; j++){ 
-		printf("%iª nota: %.1f \n", j+1, notas [i][j]);
+		printf("%iÂª nota: %.1f \n", j+1, notas [i][j]);
 		}
 		
 	}
